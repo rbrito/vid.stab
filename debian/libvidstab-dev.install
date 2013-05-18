@@ -1,0 +1,3 @@
+usr/include/vid.stab
+usr/lib/*.so
+usr/lib/pkgconfig/*.pc

@@ -1,0 +1,49 @@
+Source: libvidstab
+Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Section: libs
+Priority: optional
+Build-Depends:
+ cmake,
+ debhelper (>= 9)
+Standards-Version: 3.9.4
+Homepage: http://public.hronopik.de/vid.stab/
+
+Package: libvidstab0.9
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: library for video stabilization
+ Imagine you captured a nice video with your camcorder, compact camera or
+ even cell phone while skiing, cycling or whatever sports and the video is
+ basically just jiggled.
+ .
+ Modern cameras come along with hardware stabilisation, however this does
+ not work if you have really strong vibrations - rather the contrary -
+ sometimes this mechanism starts to oscillate.
+ .
+ Vid.Stab is your friend in this matter. It is designed to stabilize even
+ strongly jiggled clips.
+ .
+ This package contains the shared library.
+
+Package: libvidstab-dev
+Architecture: any
+Section: libdevel
+Depends:
+ libvidstab0.9,
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: library for video stabilization (development files)
+ Imagine you captured a nice video with your camcorder, compact camera or
+ even cell phone while skiing, cycling or whatever sports and the video is
+ basically just jiggled.
+ .
+ Modern cameras come along with hardware stabilisation, however this does
+ not work if you have really strong vibrations - rather the contrary -
+ sometimes this mechanism starts to oscillate.
+ .
+ Vid.Stab is your friend in this matter. It is designed to stabilize even
+ strongly jiggled clips.
+ .
+ This package contains the development files.
