@@ -31,7 +31,7 @@ Package: libvidstab-dev
 Architecture: any
 Section: libdevel
 Depends:
- libvidstab0.9,
+ libvidstab0.9 (= ${binary:Version}),
  ${misc:Depends},
  ${shlibs:Depends}
 Description: library for video stabilization (development files)
