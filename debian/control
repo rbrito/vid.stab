@@ -7,6 +7,8 @@ Build-Depends:
  debhelper (>= 9)
 Standards-Version: 3.9.4
 Homepage: http://public.hronopik.de/vid.stab/
+VCS-Git: git://github.com/rbrito/vid.stab.git
+VCS-Browser: https://github.com/rbrito/vid.stab
 
 Package: libvidstab0.9
 Architecture: any
